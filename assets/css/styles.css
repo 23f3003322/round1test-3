@@ -1,0 +1,20 @@
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--bg);
+}
+.container {
+  max-width: 720px;
+}
+.card {
+  border-radius: 0.75rem;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+  border-color: #0d6efd;
+}
+#github-created-at { min-height: 1.25em; }
